@@ -1,0 +1,17 @@
+application {
+  config {
+    baseName msanifuGrpc
+    applicationType microservice
+    packageName tech.msanifu.grpc
+    serviceDiscoveryType eureka
+    authenticationType jwt
+    databaseType sql
+    devDatabaseType h2Disk
+    prodDatabaseType postgresql
+    cacheProvider ehcache
+    buildTool maven
+    serverPort 8084
+    languages [fr, en]
+    nativeLanguage fr
+  }
+}

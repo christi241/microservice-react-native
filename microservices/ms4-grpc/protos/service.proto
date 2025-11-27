@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package mawasili;
+
+service StatusService {
+  rpc GetStatus (StatusRequest) returns (StatusReply) {}
+}
+
+message StatusRequest {}
+
+message StatusReply {
+  string message = 1;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ms5-websocket",
+  "version": "1.0.0",
+  "description": "WebSocket Microservice",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "ws": "^8.17.0",
+    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10"
+  }
+}

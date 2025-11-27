@@ -1,0 +1,17 @@
+application {
+  config {
+    baseName mawasilianoWebsocket
+    applicationType microservice
+    packageName tech.mawasiliano.websocket
+    serviceDiscoveryType eureka
+    authenticationType jwt
+    databaseType mongodb
+    cacheProvider no
+    buildTool maven
+    serverPort 8085
+    reactive true
+    websocket spring-websocket
+    languages [fr, en]
+    nativeLanguage fr
+  }
+}

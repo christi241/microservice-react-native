@@ -1,0 +1,17 @@
+application {
+  config {
+    baseName ubunifuGraphql
+    applicationType microservice
+    packageName tech.ubunifu.graphql
+    serviceDiscoveryType eureka
+    authenticationType jwt
+    databaseType sql
+    devDatabaseType h2Disk
+    prodDatabaseType postgresql
+    cacheProvider ehcache
+    buildTool maven
+    serverPort 8083
+    languages [fr, en]
+    nativeLanguage fr
+  }
+}

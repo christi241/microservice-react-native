@@ -1,0 +1,15 @@
+{
+  "name": "ms3-graphql",
+  "version": "1.0.0",
+  "description": "GraphQL Microservice",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "graphql": "^16.8.1",
+    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2"
+  }
+}
